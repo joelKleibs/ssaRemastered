@@ -1,17 +1,17 @@
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 
-import Landing from "../screens/Landing";
+import newEvent from "../screens/newEvent";
 
 const screens = {
-    Landing: {
-        screen: Landing,
+    newEvent: {
+        screen: newEvent,
         navigationOptions: {
             headerShown: false
         }
     },
 }
 
-const addLandingStack = createStackNavigator(screens)
+const newEventStack = createStackNavigator(screens)
 
-export default createAppContainer(addLandingStack)
+export default createAppContainer(newEventStack)

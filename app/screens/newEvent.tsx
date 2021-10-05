@@ -9,7 +9,7 @@ interface State
 
 }
 
-export default class EnergyCoins extends Component<{}, State>
+export default class NewEvent extends Component<{}, State>
 {
     private navigation: any
 
@@ -24,7 +24,7 @@ export default class EnergyCoins extends Component<{}, State>
     {
         return (
             <View>
-                <Text>Past Events</Text>
+                <Text>New Event</Text>
             </View>
         )
     }

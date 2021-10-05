@@ -24,7 +24,7 @@ export default class EnergyCoins extends Component<{}, State>
     {
         return (
             <View>
-                <Text>Hi</Text>
+                <Text>Proof</Text>
             </View>
         )
     }

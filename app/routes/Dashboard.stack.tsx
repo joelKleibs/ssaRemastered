@@ -2,14 +2,21 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 
 import ScannerStack from "./Scanner.stack"
-import LandingStack from "./Landing.stack"
+import joinEvent from "./joinEvent.stack"
 import ProofStack from "./Proof.stack"
 import PastEventStack from "./PastEvent.stack"
+import newEventStack from "./newEvent.stack"
 import Dashboard from "../screens/Dashboard";
 
 const screens = {
     Dashboard: {
         screen: Dashboard,
+        navigationOptions: {
+            headerShown: false
+        }
+    },
+    newEventStack:{
+        screen: newEventStack,
         navigationOptions: {
             headerShown: false
         }
@@ -20,14 +27,14 @@ const screens = {
             headerShown: false
         }
     },
-    ProofStack: {
-        screen: ProofStack,
+    joinEvent: {
+        screen: joinEvent,
         navigationOptions: {
             headerShown: false
         }
     },
-    LandingStack: {
-        screen: LandingStack,
+    ProofStack: {
+        screen: ProofStack,
         navigationOptions: {
             headerShown: false
         }

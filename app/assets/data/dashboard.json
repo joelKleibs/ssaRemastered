@@ -1,0 +1,28 @@
+{
+  "tiles": [
+    {
+      "name": "new_event",
+      "title": "Host new event",
+      "icon": "plus",
+      "iconColor": "#ffb8f0",
+      "background": "#0051AD",
+      "navigation": "newEvent"
+    },
+    {
+      "name": "past_events",
+      "title": "View past events",
+      "icon": "list-ul",
+      "iconColor": "#0051AD",
+      "background": "#00be96",
+      "navigation": "PastEvent"
+    },
+    {
+      "name": "Scanner",
+      "title": "Join event",
+      "icon": "qrcode",
+      "iconColor": "#feffc2",
+      "background": "#a67c52",
+      "navigation": "Scanner"
+    }
+  ]
+}

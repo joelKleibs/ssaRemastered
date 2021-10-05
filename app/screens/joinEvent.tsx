@@ -24,7 +24,7 @@ export default class EnergyCoins extends Component<{}, State>
     {
         return (
             <View>
-                <Text>Hi</Text>
+                <Text>Join Event (redirect to scanner)</Text>
             </View>
         )
     }
